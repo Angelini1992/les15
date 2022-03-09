@@ -1,0 +1,91 @@
+/*CSS DOCUMENT*/
+body{
+  color: lightsteelblue;
+  background-color: Mintcream;
+  font-size: 18px;
+  font-family: Times new roman;
+}
+header{
+  background-color: Silver;
+  color: White;
+  width: 99%;
+  padding: 8px;
+}
+footer{
+  background-color: Lightsteelblue;
+  color: white;
+  width: 99%;
+  height: 40px;
+  padding: 8px;
+}
+ul a{
+  color: Lightcyan;
+  text-decoration: none;
+}
+li{
+  display: inline-block;
+  background-color: olive;
+  border: 2px solid white;
+  color: powderblue;
+  text-align: center;
+  height: 30px;
+  width: 150px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+li:hover{
+  background-color: bisque;
+  border: 2px solid silver;
+  border-radius: 10px;
+}
+.voet{
+  font-size: 12px;
+}
+.beschrijving{
+  background-color: azure;
+  text-align: justify;
+  padding: 40px 40px 70px 40px;
+  margin: 40px 100px;
+}
+img{
+  float: left;
+  padding-right: 20px;
+}
+.tabel{
+  margin: 40px 100px;
+}
+table{
+  border-collapse: collapse;
+  background-color: gray;
+}
+td, th{
+  vertical-align: text-top;
+  border: 0.5px solid Lavenderblush;
+  padding: 12px;
+}
+th{
+  font-size: 24px;
+}
+.formulier{
+  background-color: mintcream;
+  padding: 10px 40px;
+  margin: 40px 100px;
+}
+input[type="text"], input[type="email"], textarea, button{
+  display: block;
+  font-family: Times new roman;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 15px 0px;
+}
+textarea{
+  height: 200px;
+  background-color: lavender ;
+}
+button:active{
+  background-color: lavender;
+  color: black;
+  border-radius: 8px;
+}
